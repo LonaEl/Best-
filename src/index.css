@@ -59,6 +59,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+  
 }
 section > h2, section > h5 {
     text-align: center;
@@ -109,4 +110,28 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
+}
+
+/*Media query for tablets*/
+
+@media screen and (max-width: 1024px ) {
+    .container {
+        width: var(--container-width-md);
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+}
+
+/*Media query for Phones*/
+
+@media screen and (max-width: 600px ) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section > h2 {
+        margin-bottom: 2rem;
+    }
 }
