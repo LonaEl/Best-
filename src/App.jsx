@@ -23,7 +23,6 @@ const App = () => {
      <Testimonials />
      <Contact />
      <Footer />
-    Lona 
     </div>
   );
 }

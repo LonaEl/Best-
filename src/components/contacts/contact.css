@@ -59,8 +59,13 @@ input, textarea {
    } 
 }
 
-@media screen and(max-width: 600px) {
+@media screen and (max-width: 600px) {
     .container.contact__container {
         width: var(--container-width-sm);
+    }
+    .contact__option {
+        display: block;
+        grid-template-columns: 1fr;
+        text-align: center;
     }
 }
