@@ -37,11 +37,12 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    background-color: #fff;
+    background: var(--color-bg); 
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
-}
+     background-image: url(../src/assets/bg-texture.png);
+} 
 
 /*general styles*/
 .container {
@@ -110,6 +111,7 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
+    border-radius:7rem 7rem 0 0;
 }
 
 /*Media query for tablets*/
